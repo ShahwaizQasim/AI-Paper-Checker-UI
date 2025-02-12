@@ -1,0 +1,26 @@
+.section-one {
+    width: 100%;
+    background-color: #BBF4E7;
+}
+
+.section-one-childOne {
+    height: 100%;
+    width: 100%;
+    background-image: url(../src/assets/img/banner_back.svg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.section-one-childTwo {
+    height: 500px;
+    border: 2px solid red;
+}
+
+.section-one-childTwo>.img {
+    height: 75%;
+    width: 100%;
+    background-image: url(../../assets/img/top_banner_img.svg);
+    background-size: cover;
+    background-position: center;
+}
