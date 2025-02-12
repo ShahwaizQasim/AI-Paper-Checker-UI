@@ -14,7 +14,6 @@
 
 .section-one-childTwo {
     height: 500px;
-    border: 2px solid red;
 }
 
 .section-one-childTwo>.img {
@@ -23,4 +22,32 @@
     background-image: url(../../assets/img/top_banner_img.svg);
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width:530px) {
+    .section-one-childOne {
+        width: 95%;
+    }
+    .section-one-childTwo {
+        width: 90%;
+    }
+
+    .section-one-childTwo>.img {
+        height: 50%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .section-one-childTwo {
+        width: 90%;
+    }
+    .section-one-childTwo>.img {
+        height: 50%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
 }
