@@ -75,12 +75,15 @@
         left: 20px;
     }
     .pictureImg{
-        
+        height: 45%;
+        width: 80%;
+        position: relative;
+        right: 20px;
     }
 }
 
 
-@media screen and (max-width:530px) {
+/* @media screen and (max-width:530px) {
     .section-one-childOne {
         width: 95%;
     }
@@ -95,17 +98,18 @@
         background-size: cover;
         background-position: center;
     }
-}
+} */
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:425px) {
     .section-one-childTwo {
         width: 90%;
     }
-
     .section-one-childTwo>.img {
         height: 50%;
         width: 100%;
         background-size: cover;
         background-position: center;
+        position: relative;
+        left: 20px;
     }
 }
