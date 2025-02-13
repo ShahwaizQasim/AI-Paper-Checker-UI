@@ -47,3 +47,16 @@
     position: relative;
     left: 30px;
 }
+
+/* Picture Capture Section */
+
+.pictureImg{
+    height: 50%;
+    width: 80%;
+    background-image: url(../src/assets/img/print_prod.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
