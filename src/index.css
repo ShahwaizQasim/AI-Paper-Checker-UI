@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins'
+}
 @import "tailwindcss";
+
+
+/* Hero-Section */
+.section-one {
+    width: 100%;
+    background-color: #BBF4E7;
+}
+
+.section-one-childOne {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/img/banner_back.svg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.section-one-childTwo {
+    height: 500px;
+}
+
+.section-one-childTwo>.img {
+    height: 75%;
+    width: 100%;
+    background-image: url(../src/assets/img/top_banner_img.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Exam-Section */
+
+.ExamSection-childOne{
+    height: 400px;
+    border: 2px solid red;
+}
+.examImg{
+    height: 100%;
+    width: 80%;
+    background-image: url(../src/assets/img/exam_Img.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+}
