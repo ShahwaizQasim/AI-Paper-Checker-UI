@@ -1,8 +1,90 @@
+/* Hero Section  */
+
+@media screen and (max-width:1024px) {
+    .HeroSec>p {
+        font-size: 0.9rem;
+    }
+
+    .ExamSec>p {
+        font-size: 0.9rem;
+    }
+
+    .PictureSec>p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .HeroSec {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .HeroSec>h1 {
+        font-size: 1.4rem;
+        padding-left: 20px;
+    }
+
+    .HeroSec>p {
+        font-size: 0.9rem;
+        padding-left: 20px;
+    }
+
+    .HeroButton>button {
+        position: relative;
+        left: 20px;
+    }
+
+    .section-one-childTwo>.img {
+        height: 55%;
+        width: 100%;
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+
+    .ExamSection-childOne {
+        height: 400px;
+    }
+    .ExamSection-childOne>.examImg{
+        height: 80%;
+        width: 90%;
+        position: relative;
+        top: 30px;
+    }
+
+    .ExamSec>h1 {
+        font-size: 1.4rem;
+    }
+
+    .ExamSec>p {
+        font-size: 0.9rem;
+    }
+    .PictureSec > h1{
+        font-size: 1.4rem;
+        position: relative;
+        left: 20px;
+    }
+    .PictureSec > p{
+        font-size: 0.9rem;
+        position: relative;
+        left: 20px;
+    }
+    .pictureSecButton > button {
+        position: relative;
+        left: 20px;
+    }
+    .pictureImg{
+        
+    }
+}
+
 
 @media screen and (max-width:530px) {
     .section-one-childOne {
         width: 95%;
     }
+
     .section-one-childTwo {
         width: 90%;
     }
@@ -19,6 +101,7 @@
     .section-one-childTwo {
         width: 90%;
     }
+
     .section-one-childTwo>.img {
         height: 50%;
         width: 100%;

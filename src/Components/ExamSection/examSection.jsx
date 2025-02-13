@@ -7,8 +7,8 @@ function ExamSection() {
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-4 ExamSection-childOne">
                     <div className="examImg"></div>
                 </div>
-                <div className="lg:flex-grow md:w-1/2 lg:pr-2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="title-font sm:text-3xl lg:text-4xl mb-4 font-medium text-[#4F39F6]">
+                <div className="lg:flex-grow md:w-1/2 lg:pr-2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ExamSec">
+                    <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-[#3D31B9]">
                         Exam Evaluation, Assessment and Learning
                     </h1>
                     <p className="mb-8 leading-relaxed">
