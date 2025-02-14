@@ -2,8 +2,8 @@ import React from 'react'
 
 function GradeSection() {
     return (
-        <section className="text-gray-600 body-font">
-            <div className="container lg:px-20 py-10 mx-auto flex md:flex-row gap-10 flex-col items-center GradeSection">
+        <section className="text-gray-600 body-font GradeSection">
+            <div className="container lg:px-20 py-4 mx-auto flex md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-4 GradeSection-childOne">
                     <div className="gradeImg"></div>
                 </div>
