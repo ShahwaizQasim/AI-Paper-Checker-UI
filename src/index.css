@@ -62,3 +62,36 @@
     left: 30px;
     top: 30px;
 }
+
+/* Grade Section */
+
+.GradeSection {
+    background-color: #F2F5F6;
+}
+
+.GradeSection-childOne {
+    height: 500px;
+}
+
+.gradeImg {
+    height: 100%;
+    width: 75%;
+    background-image: url(../src/assets/img/CaptureImg.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 100px;
+}
+.GradeSec{
+    position: relative;
+    right: 30px;
+    top: 15px;
+}
+.GradeSec > h1{
+    position: relative;
+    top: 10px;
+}
+/* .GradeSec > p{
+    position: relative;
+    top: 10px;
+} */
