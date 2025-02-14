@@ -1,4 +1,3 @@
-/* Hero Section  */
 
 @media screen and (max-width:1024px) {
     .HeroSec>p {
@@ -22,17 +21,12 @@
 
     .HeroSec>h1 {
         font-size: 1.4rem;
-        padding-left: 20px;
+        padding-inline: 10px;
     }
 
     .HeroSec>p {
         font-size: 0.9rem;
-        padding-left: 20px;
-    }
-
-    .HeroButton>button {
-        position: relative;
-        left: 20px;
+        padding-inline: 10px;
     }
 
     .section-one-childTwo>.img {
@@ -46,7 +40,8 @@
     .ExamSection-childOne {
         height: 400px;
     }
-    .ExamSection-childOne>.examImg{
+
+    .ExamSection-childOne>.examImg {
         height: 80%;
         width: 90%;
         position: relative;
@@ -59,29 +54,130 @@
 
     .ExamSec>p {
         font-size: 0.9rem;
+        padding-inline: 10px;
     }
-    .PictureSec > h1{
+
+    .PictureSec>h1 {
         font-size: 1.4rem;
-        position: relative;
-        left: 20px;
     }
-    .PictureSec > p{
+
+    .PictureSec>p {
         font-size: 0.9rem;
-        position: relative;
-        left: 20px;
+        padding-inline: 10px;
     }
-    .pictureSecButton > button {
-        position: relative;
-        left: 20px;
+
+    .PicSection-childTwo {
+        height: 200px;
+        overflow: hidden;
     }
-    .pictureImg{
-        height: 45%;
+
+    .pictureImg {
+        height: 80%;
         width: 80%;
         position: relative;
         right: 20px;
     }
+
+    .GradeSec>p {
+        font-size: 0.9rem;
+        padding-inline: 10px;
+    }
 }
 
+@media screen and (max-width:750px) {
+    .GradeSection-childOne {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .gradeImg {
+        height: 100%;
+        width: 75%;
+        background-image: url(../src/assets/img/Capture.JPG);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .GradeSection-childOne {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .gradeImg {
+        height: 80%;
+        width: 75%;
+        background-image: url(../src/assets/img/Capture.JPG);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 60px;
+    }
+
+    .GradeSec>p {
+        font-size: 0.7rem;
+        padding-inline: 10px;
+    }
+
+    .HeroSec>h1 {
+        font-size: 1.3rem;
+        padding-inline: 20px;
+    }
+
+    .HeroSec>p {
+        font-size: 0.7rem;
+        padding-inline: 20px;
+    }
+
+    .ExamSec>h1 {
+        font-size: 1.3rem;
+        padding-inline: 20px;
+    }
+
+    .ExamSec>p {
+        font-size: 0.7rem;
+        padding-inline: 20px;
+    }
+
+    .PictureSec>h1 {
+        font-size: 1.3rem;
+    }
+
+    .PictureSec>p {
+        font-size: 0.7rem;
+        padding-inline: 20px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .PictureSec>h1 {
+        font-size: 1.4rem;
+    }
+
+    .PictureSec>p {
+        font-size: 0.9rem;
+        padding-inline: 10px;
+    }
+
+    .GradeSection-childOne {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .gradeImg {
+        height: 80%;
+        width: 100%;
+        background-image: url(../src/assets/img/Capture.JPG);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 5px;
+        top: 30px;
+    }
+}
 
 /* @media screen and (max-width:530px) {
     .section-one-childOne {
@@ -104,6 +200,7 @@
     .section-one-childTwo {
         width: 90%;
     }
+
     .section-one-childTwo>.img {
         height: 50%;
         width: 100%;

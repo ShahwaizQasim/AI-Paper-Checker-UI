@@ -51,6 +51,9 @@
 }
 
 /* Picture Capture Section */
+.PicSection-childTwo {
+    height: 400px;
+}
 
 .pictureImg {
     height: 50%;
