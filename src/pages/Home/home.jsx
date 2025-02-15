@@ -11,6 +11,7 @@ function Home() {
             <GradeSection />
             <HeroSection />
             <ExamSection />
+            {/* <MainS  */}
             <PictureSection />
             <Footer />
         </>
